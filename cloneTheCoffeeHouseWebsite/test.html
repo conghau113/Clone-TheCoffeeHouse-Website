@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            text-align: center;
+            width: 100%;
+            background: #bebebe;
+            padding: 0;
+            margin: 0 auto;
+            height: 60px;
+            position: relative;
+        }
+
+        #header ul {
+            background: #bebebe;
+            list-style: none;
+            padding: 0 20px;
+            margin: 0 auto;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #header ul li {
+            display: block;
+        }
+
+        #header ul li a {
+            color: #333333;
+            display: block;
+            padding: 0px 40px;
+            text-decoration: none;
+            float: left;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        #header ul li:hover {
+            background: #333333;
+        }
+
+
+        #header ul li:hover>a {
+            color: #FFFFFF;
+        }
+
+        #header ul ul {
+            background: #BEBEBE;
+            padding: 0;
+            text-align: center;
+            /* display: none; */
+            width: 100%;
+            position: absolute;
+            top: 60px;
+            left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <ul>
+            <li>
+                <a class="logo" href="/index.html"><b>THE COFFEE HOUSE</b></a>
+            </li>
+            <li><a href="#">Cà phê</a></li>
+            <li><a href="#">Trà</a></li>
+            <li>
+                <a href="#">Menu</a>
+                <ul class="dropdown_content">
+                    <li class="lv2_title"><a href="#">Tất cả</a></li>
+                    <li class="lv2_title"><a href="#">Cà phê</a></li>
+                    <li class="lv2_title"><a href="#">CloudFee</a></li>
+                    <li class="lv2_title"><a href="#">Trà</a></li>
+                    <li class="lv2_title"><a href="#">Hi-Tea Healthy</a></li>
+                    <li class="lv2_title"><a href="#">Bánh & Snack</a></li>
+                    <li class="lv2_title"><a href="#">Tại nhà</a></li>
+                    <li class="lv2_title"><a href="#">Thức uống khác</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Chuyện nhà</a> <i class="fa-solid fa-caret-down"></i></li>
+            <li><a href="#">Cảm hứng CloudFee</a></li>
+            <li><a href="#">Cửa hàng</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+        </ul>
+    </header>
+</body>
+
+</html>
